@@ -1,14 +1,16 @@
 body {
+/*     this will gonna covert all the font on the page montserrat */
     font-family: 'montserrat';
 }
 
 
-
 #title {
+/*     changing the clr of hero section */
     background-color: #ff4c68;
 }
 
 h1 {  
+/*     dont know why but montserrat-black is not working so i've mentioned the font weight here */
     font-family:'Montserrat'; 
     font-size: 3rem;  
     line-height: 1.5; 
@@ -16,6 +18,7 @@ h1 {
     color: white;
 }
 .container-fluid {
+/*     giving padding so that content should be looks proper */
     padding:3% 15%;
 }
 /* using bootstrap we can also use the icons */
@@ -23,12 +26,9 @@ h1 {
     vertical-align:unset;
 } */
 
-.iphone-mockup {
-    rotate:0deg ;
-}
-
 
 @media (min-width: 992px) {
+/*     i dont know how it works just evdh kalal ki 992px chya khali aal ka transformation off hot */
     .rotate-image {
       transform: rotate(25deg);
     }
@@ -40,6 +40,10 @@ h1 {
 }
 
 .btn {
+/*     btn la margin dil mhnje saral zalyvar trass nko  */
     width:12rem;
     margin-bottom: 1rem;
 }
+
+
+/* bootstrap ch css pn laval aahe pn te ith disat nahi just check it out by own */
