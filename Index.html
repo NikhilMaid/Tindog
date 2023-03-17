@@ -44,17 +44,33 @@
 
 <body>
 
+    
+<!--     Here we dived our code section wise -->
     <section id="title">
+        
+<!--         class container fluid makes the div to take full width or say its gonna make the div like fluid -->
         <div class="container-fluid">
+            
+<!--             here fs-4 is predefined class used in bootstrap to adjust the text size it s analogous to h1,h2,h3... -->
             <nav class="navbar navbar-expand-lg navbar-dark fs-4">
+                
+<!--                 similarly fs-1 represent biggest text size -->
                 <a class="navbar-brand fs-1" href="">tindog</a>
+                
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
+<!--                     ms auto means give margin to push the element and fill all avalaible possible space of the starting -->
                     <ul class="navbar-nav ms-auto ">
+                        
+<!--                         mx-1,2,3,4 & 5 represent the margins on both side right and left i.e in x direction and the no represent the value -->
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="">Contact</a>
                         </li>
@@ -73,11 +89,22 @@
 
 
             <!-- Title -->
+            
+            
+<!--             t represent top -->
             <div class="row mt-5">
                 <div class="col-lg-6 col-md-12">
+                    
+<!--                     b for bottom -->
                     <h1 class="mb-5">Meet new and interesting dogs nearby.</h1>
+                    
+<!--                     w means width 
+
+                   actually <i> tag is use to italcise the text but icons arent getting affected as it is so small 
+                    so it is used for the icon element fa-brands & fa-apple is the icon classes defined by fontawesome.com 
+                    which is the source of icon as we mentioned there class so we also need to specify the cdn link of font awesome in the head section. -->
                     <button type="button" class="btn btn-dark btn-lg w-3"><i class="fa-brands fa-apple"></i>
-                        <!-- icons using bootstrap -->
+                        <!-- icons using bootstrap is same process like fontawesome -->
 
                         
                         <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -99,6 +126,8 @@
                     </button>
                 </div>
                 <div class="col-lg-6 col-md-12">
+                    
+<!--                     Rotateimg class is to rotate and to apply trasition to the image when the screen size is reduced. -->
                     <img src="images/iphone6.png" alt="iphone-mockup" class="iphone-mockup rotate-image">
                 </div>
             </div>
